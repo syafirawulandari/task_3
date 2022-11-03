@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>CV</title>
+   <link rel="stylesheet" href="main.css">
+</head>
+
+<body id="body">
+   <header id="header">
+      <div class="container">
+         <figure class="">
+            <img src="https://github.com/syafirawulandari/foto/blob/main/3%20x4%20.JPG?raw=true" alt="" height="130px" width="50px">
+         </figure>
+         <div class="header ">
+            <h1><span id="white">Hai, saya</span><span id="blue"> Syafira Wulandari</span></h1>
+            <h4><span id="white">Seorang Mahasiswa Prodi Teknik Informatika Itera</span></h4>
+         </div>
+      </div>
+   </header>
+   
+   <nav class="">
+      <div class="bayangan-header ">
+         <ul>
+            <li><a href="#tentang-saya">TENTANG SAYA</a></li>
+            <li><a href="#pengalaman">PENGALAMAN SAYA</a></li>
+            <li><a href="#hubungi">HUBUNGI SAYA</a></li>
+            <li><a href="https://instagram.com/syafirawulandr">INSTAGRAM</a></li>
+            <li><button id="btn-dark" onclick="mode()">Dark Mode</button></li>
+         </ul>
+      </div>
+   </nav>
+   <section id="section">
+      <div class="flexbox">
+         <div class="subjudul" id="tentang-saya">
+            <h4># Tentang Saya</h4> 
+         </div>
+         <div class="sembunyikan"><button id="sembunyikan"> Sembunyikan </button></div>
+      </div>
+      <div class="kotak" id="kotak-1">
+            <div class="artikel flex-1" id="box">
+               <p>
+               <span class="capt">S</span> aya seorang mahasiswi teknik informatika
+               yang sedang menempuh semester 5 di Institut Teknologi Sumatera, saya
+               berusia 20 tahun, dan saya berasal dari Kotabumi, Lampung Utara.
+               saya merupakan orang yang mampu bertanggung jawab, disiplin, dan
+               mampu bekerjasama dalam tim.</p>
+            </div>
+            <div class="artikel flex-1">
+               <figure class="gutter">
+                  <iframe
+                    src="https://www.youtube.com/embed/eF6IiY6CLc0"
+                    width="420"
+                    height="240"
+                  ></iframe>
+                  <br /><br /><br />
+                </figure>
+            </div>
+      </div>
+
+      <div class="flexbox">
+         <div class="subjudul-2" id="pengalaman">
+            <h4># Pengalaman kerja</h4>
+         </div>
+         <div class="sembunyikan"><button id="sembunyikan-2"> Sembunyikan </button></div>
+      </div>
+      
+      <div class="kotak" id="kotak-2">
+         <table>
+            <tr class="bg-tb">
+              <th rowspan="1">No</th>
+              <th rowspan="1">Kepantiaan</th>
+              <th rowspan="1">Jabatan</th>
+              <th colspan="1">Waktu</th>
+            </tr>
+            <tr>
+              <td class="center">1</td>
+              <td>PPLK ITERA 2021</td>
+              <td>Staff Materi Metode</td>
+              <td class="center">2021</td>
+            </tr>
+            <tr>
+              <td class="center">2</td>
+              <td>FIRST GATHERING IF 2021</td>
+              <td>Ketua Sub Divisi Mentor</td>
+              <td class="center">2021</td>
+            </tr>
+            <tr>
+              <td class="center">3</td>
+              <td>PPLK ITERA 2022</td>
+              <td>Staff Materi Metode</td>
+              <td class="center">2022</td>
+            </tr>
+            <tr>
+              <td class="center">3</td>
+              <td>KADERISASI HMIF 2022/2023</td>
+              <td>Staff Materi dan Tugas</td>
+              <td class="center">2022</td>
+            </tr>
+          </table>
+      </div>
+      <div class="subjudul-3" id="hubungi">
+         <h4># Hubungi Saya</h4>
+      </div>
+
+      <div class="box-2" id="box-2">
+         <form action="">
+            <div class="form atas">
+               <label>Nama</label><br>
+               <input type="text">
+            </div>
+            <div class="form bawah">
+               <label>Sudah baca buku saya?</label><br />
+               <input type="radio" value="Sudah" name="video" />Sudah <br />
+               <input type="radio" value="Belum" name="video" />Belum
+             </div>
+             <div class="form bawah">
+               <label for="tanya">Judul Buku Yang Dibaca?</label> <br />
+               <input type="checkbox" /> Tips Menjadi pengusaha <br />
+               <input type="checkbox" /> Peluang Bisnis Diera Ini <br />
+               <input type="checkbox" /> Mengatur Keuangan <br />
+               <input type="checkbox" /> Lainnya <br />
+             </div>
+            <input type="submit" value="send" class="submit">
+         </form>
+      </div>
+   </section>
+   <footer>
+      <section>
+         <div class="kotak footer" >
+            <h4>Syafira Wulandari</h4>
+         </div>
+      </section>
+   </footer> 
+   <script src="script.js"></script>
+</body>
+</html>
